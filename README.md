@@ -25,6 +25,8 @@ The firmware is designed with **non-blocking** logic. This ensures:
 * LDR (Light Dependent Resistor)
 * 20x4 I2C LCD Display
 * BD139 NPN Transistor
+* 10K Resistors for dht11 pull up and ldr voltage divider
+* 220 ohm resistor 
 
 ## Setup & Usage
 1. Fill in your network credentials in the `YOUR_WIFI_SSID`, `YOUR_WIFI_PASSWORD`, and `BLYNK_AUTH_TOKEN` fields within the code.
